@@ -1,12 +1,16 @@
 {
   "metadata": {
+    "id": "anthropic-claude",
+    "provider": "Anthropic",
+    "providerUrl": "https://www.anthropic.com",
+    "apiEndpoint": "https://api.anthropic.com",
     "source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
-    "retrievedDate": "2025-06-14",
     "lastUpdated": "2025-06-14T00:37:13.796Z",
     "version": "1.0.0",
     "description": "Official Anthropic Claude API pricing data with cache rates",
     "currency": "USD",
-    "unit": "per token (converted from per million tokens)"
+    "unit": "per token (converted from per million tokens)",
+    "notes": "Claude models support prompt caching for reduced costs on repeated context"
   },
   "models": [
     {
