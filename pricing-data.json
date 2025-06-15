@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "source": "https://docs.anthropic.com/en/docs/about-claude/pricing",
+    "retrievedDate": "2025-06-14",
+    "lastUpdated": "2025-06-14T00:37:13.796Z",
+    "version": "1.0.0",
+    "description": "Official Anthropic Claude API pricing data with cache rates",
+    "currency": "USD",
+    "unit": "per token (converted from per million tokens)"
+  },
+  "models": [
+    {
+      "modelId": "claude-opus-4",
+      "name": "Claude Opus 4",
+      "input": 0.000015,
+      "output": 0.000075,
+      "cache": {
+        "5m": {
+          "write": 0.00001875,
+          "read": 0.0000015
+        },
+        "1h": {
+          "write": 0.00003,
+          "read": 0.0000015
+        }
+      },
+      "originalRates": {
+        "input": "$15/MTok",
+        "output": "$75/MTok",
+        "cache5mWrite": "$18.75/MTok",
+        "cache1hWrite": "$30/MTok",
+        "cacheRead": "$1.5/MTok"
+      }
+    },
+    {
+      "modelId": "claude-sonnet-4",
+      "name": "Claude Sonnet 4",
+      "input": 0.000003,
+      "output": 0.000015,
+      "cache": {
+        "5m": {
+          "write": 0.00000375,
+          "read": 3e-7
+        },
+        "1h": {
+          "write": 0.000006,
+          "read": 3e-7
+        }
+      },
+      "originalRates": {
+        "input": "$3/MTok",
+        "output": "$15/MTok",
+        "cache5mWrite": "$3.75/MTok",
+        "cache1hWrite": "$6/MTok",
+        "cacheRead": "$0.3/MTok"
+      }
+    },
+    {
+      "modelId": "claude-sonnet-3.7",
+      "name": "Claude Sonnet 3.7",
+      "input": 0.000003,
+      "output": 0.000015,
+      "cache": {
+        "5m": {
+          "write": 0.00000375,
+          "read": 3e-7
+        },
+        "1h": {
+          "write": 0.000006,
+          "read": 3e-7
+        }
+      },
+      "originalRates": {
+        "input": "$3/MTok",
+        "output": "$15/MTok",
+        "cache5mWrite": "$3.75/MTok",
+        "cache1hWrite": "$6/MTok",
+        "cacheRead": "$0.3/MTok"
+      }
+    },
+    {
+      "modelId": "claude-sonnet-3.5",
+      "name": "Claude Sonnet 3.5",
+      "input": 0.000003,
+      "output": 0.000015,
+      "cache": {
+        "5m": {
+          "write": 0.00000375,
+          "read": 3e-7
+        },
+        "1h": {
+          "write": 0.000006,
+          "read": 3e-7
+        }
+      },
+      "originalRates": {
+        "input": "$3/MTok",
+        "output": "$15/MTok",
+        "cache5mWrite": "$3.75/MTok",
+        "cache1hWrite": "$6/MTok",
+        "cacheRead": "$0.3/MTok"
+      }
+    },
+    {
+      "modelId": "claude-haiku-3.5",
+      "name": "Claude Haiku 3.5",
+      "input": 8.000000000000001e-7,
+      "output": 0.000004,
+      "cache": {
+        "5m": {
+          "write": 0.000001,
+          "read": 8e-8
+        },
+        "1h": {
+          "write": 0.0000016000000000000001,
+          "read": 8e-8
+        }
+      },
+      "originalRates": {
+        "input": "$0.8/MTok",
+        "output": "$4/MTok",
+        "cache5mWrite": "$1/MTok",
+        "cache1hWrite": "$1.6/MTok",
+        "cacheRead": "$0.08/MTok"
+      }
+    },
+    {
+      "modelId": "claude-opus-3",
+      "name": "Claude Opus 3",
+      "input": 0.000015,
+      "output": 0.000075,
+      "cache": {
+        "5m": {
+          "write": 0.00001875,
+          "read": 0.0000015
+        },
+        "1h": {
+          "write": 0.00003,
+          "read": 0.0000015
+        }
+      },
+      "originalRates": {
+        "input": "$15/MTok",
+        "output": "$75/MTok",
+        "cache5mWrite": "$18.75/MTok",
+        "cache1hWrite": "$30/MTok",
+        "cacheRead": "$1.5/MTok"
+      }
+    },
+    {
+      "modelId": "claude-haiku-3",
+      "name": "Claude Haiku 3",
+      "input": 2.5e-7,
+      "output": 0.00000125,
+      "cache": {
+        "5m": {
+          "write": 3e-7,
+          "read": 3e-8
+        },
+        "1h": {
+          "write": 5e-7,
+          "read": 3e-8
+        }
+      },
+      "originalRates": {
+        "input": "$0.25/MTok",
+        "output": "$1.25/MTok",
+        "cache5mWrite": "$0.3/MTok",
+        "cache1hWrite": "$0.5/MTok",
+        "cacheRead": "$0.03/MTok"
+      }
+    }
+  ]
+}
